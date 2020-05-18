@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>series</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+  />
 </head>
 <body>
     
@@ -14,16 +20,16 @@
         <nav id="navbar">
             <a class="menu-item" href="/about/"><em>ABOUT</em></a>
             <a class="menu-item" href="/series/"><em>SERIES</em></a>
-            <a class="menu-item" href="#"><em>CONTACT</em></a>
+            <a class="menu-item" id="modal-button" href="#"><em>CONTACT</em></a>
         </nav>
-        <h2><em><u>SERIES</u></em></h2>
-        <div id="series-container">
+        <h2 class="animated fadeIn"><em><u>SERIES</u></em></h2>
+        <div id="series-container" class="animated fadeIn">
             <a href="./as-if-all-at-once/">
                 <div id="aiaao" class="series">
                     <em>AS IF ALL AT ONCE</em>
                 </div>
             </a>
-            <a href="./as-if-all-at-once/">
+            <a href="./no-one-else/">
                 <div id="noe" class="series">
                     <em>NO ONE ELSE</em>
                 </div>
@@ -37,6 +43,13 @@
         
         
         
+    </div>
+
+    <div class="modal">
+        <div class="modal-popout">
+            <p>just, like, think about it hard enough and i'll probably get the general message</p>
+            <div class="close">X</div>
+        </div>
     </div>
 
 </body>
